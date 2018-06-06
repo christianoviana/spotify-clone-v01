@@ -1,0 +1,190 @@
+/*
+*   @autor José Christiano Viana Junior
+*   @version 0.1
+*/
+
+/* layout */
+
+body, html, .capa{
+    height: 100%;  
+}
+
+body{
+    overflow: auto;  
+}
+
+body{
+    background: url(../imagens/capa.png), 
+                url(../imagens/ruido.png),
+                linear-gradient(50deg,#ff4169, #7c26f8);
+    background-attachment: fixed;  
+    font-family: Helvetica, Arial, sans-serif ;
+    overflow-x: hidden;
+}
+
+/* navegação */
+nav.navbar-transparente{
+   width: 100%;
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.img-logo{
+    height: 40px;
+    width: 132px;
+    background: url('../imagens/spotify.svg');  
+    background-repeat: no-repeat; 
+    display: block;
+    background-size: contain;
+    color: transparent;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav >li>a{
+    color: white;
+    background: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav >li>a:hover{
+    color: #9BF0E1;
+}
+
+/* capa */
+
+.capa{
+    display: table; 
+    width: 100%; 
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* tipográfia */
+
+h1{
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-bottom: 2px;
+}
+
+#servico h2, #servico h3{
+    color: #7C25F8;
+}
+
+#sobre{
+    color: #FFF;
+}
+
+#sobre h3{
+    color: #9BF0E1;
+}
+
+#rodape h4{
+    text-transform: uppercase;
+}
+
+
+/* botões */
+.btn-spotify{
+    color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 5px 35px;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    transition: background 0.4s, color 0.5s;
+}
+
+.btn-branco{
+    border: 2px solid #FFF;
+}
+
+.btn-branco:hover{
+   color: black;
+   background-color: white;
+}
+
+.btn-roxo{
+    background: #7c25f8;
+}
+
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: white;
+ }
+
+ /* servico */
+ #servico{
+    background-color: #FFF;
+    padding: 10px 0px;
+ }
+
+ .album{
+    padding: 10px 0px;
+ }
+ 
+ .rotate{
+     transform: rotate(30deg);
+     -webkit-transform: rotate(30deg); /* Chrome */
+     -ms-transform: rotate(30deg);    /* IE9 */
+     margin-left: 80px;
+ }
+
+/* rodape */
+footer{
+    background-color: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+    
+}
+
+#rodape .medias-sociais li{
+   float: right;
+}
+
+#rodape .medias-sociais a{
+    background: none;
+ }
+
+#rodape .medias-sociais li:hover{    
+    opacity: 0.6;  
+    filter: alpha(opacity(60)); 
+    -moz-opacity: 0.6; 
+}
+
+
+ 
+
+
+
+
