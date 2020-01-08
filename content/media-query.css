@@ -28,6 +28,12 @@
         overflow-y: hidden; 
         overflow-x: hidden; 
       }
+
+      .rotate{
+        margin-left: 60px;
+        width: 200px;
+        height: 200px;
+      }
 }
 
 /* SM */
