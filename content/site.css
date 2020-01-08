@@ -10,7 +10,7 @@ body, html, .capa{
 }
 
 body{
-    overflow: auto;  
+    overflow: overflow-y;  
 }
 
 body{
@@ -24,7 +24,7 @@ body{
 
 /* navegação */
 nav.navbar-transparente{
-   width: 100%;
+    width: 100%;
     padding: 15px 0px;
     background: rgba(0, 0, 0, 0.6);
     border: none;
@@ -48,7 +48,7 @@ nav.navbar-transparente{
     width: 1px;
     height: 16px;
     background: white;
-    margin: 16px 0px;
+    margin: 16px 16px;
 }
 
 .navbar-inverse .navbar-nav>li>a, #rodape .nav >li>a{

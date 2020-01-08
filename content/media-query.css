@@ -6,17 +6,29 @@
         font-size:50px;           
     }
 
+    .img-responsive{
+        width: 50%; 
+    }
+
     .btn-spotify{
         margin: 0px 5px 10px 5px;
         padding: 5px 15px;
        
     }
+
+    nav.navbar-transparente{
+         background: rgb(0, 0, 0);
+     }
 }
 
 /* SM */
 @media screen and (min-width: 768px) {
     .texto-capa h1{
         font-size: 70px;
+    }
+
+    nav.navbar-transparente{
+        background: rgba(0, 0, 0, 0.6);
     }
 }
 
@@ -25,10 +37,18 @@
     .texto-capa h1{
         font-size: 80px;
     }
+
+    nav.navbar-transparente{
+        background: rgba(0, 0, 0, 0.6);
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .texto-capa h1{ 
          font-size: 100px;
+    }
+
+    nav.navbar-transparente{
+        background: rgba(0, 0, 0, 0.6);
     }
 }
