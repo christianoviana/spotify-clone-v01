@@ -20,7 +20,12 @@
          background: rgb(0, 0, 0);
      }
 
-     .navbar-collapse.in { 
+     #barra-navegacao {
+        max-height: fit-content;
+      }
+     /* And we even need to overwrite the overflow property*/
+      .navbar-collapse.in { 
+        overflow-y: hidden; 
         overflow-x: hidden; 
       }
 }
