@@ -183,6 +183,27 @@ footer{
     -moz-opacity: 0.6; 
 }
 
+.target{
+    opacity: 0px;
+    visibility: hidden;
+}
+
+.fadein-on{
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fadein{
+    from {visibility: hidden; opacity: 0; }
+    to { visibility: visible; opacity: 1;}
+} 
 
  
 
